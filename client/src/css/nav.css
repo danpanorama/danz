@@ -1,0 +1,29 @@
+.nav_bar{
+    min-height: 10vh;
+    padding: 9px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 99999999999999;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+} 
+.nav_link{
+  
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: black;
+    
+}
+.holding_links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

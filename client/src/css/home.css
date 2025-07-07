@@ -1,0 +1,42 @@
+.homeScreenContainer{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: rgb(226, 255, 255); */
+}
+
+.profilePhoto{
+    height: 300px;
+    width: 300px;
+    border: 4px solid rgb(0, 102, 186);
+    background-color: white;
+    animation: changeBorder 20s infinite linear;
+    border-radius: 27% 73% 70% 30% / 42% 63% 37% 58%;
+}
+
+
+@keyframes changeBorder {
+    0%{
+        border-radius: 27% 73% 70% 30% / 42% 63% 37% 58% ;
+    }
+    40%{
+        border-radius: 69% 31% 6% 94% / 14% 51% 49% 86%  ;
+    }
+    80%{
+        border-radius: 10% 90% 18% 82% / 92% 11% 89% 8% ;
+    }
+    100%{
+        border-radius: 27% 73% 70% 30% / 42% 63% 37% 58% ;
+    }
+    
+}
+.circle{
+    height: 30px;
+    width: 30px ;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.homeScreenContainer{
+    width: 70%;
+    margin: 0 auto;
+}
